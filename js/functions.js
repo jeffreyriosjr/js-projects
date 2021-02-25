@@ -92,6 +92,8 @@ const getUserName = () => {
 
 getUserName();
 
+//excercise #3
+
 const verifyAge = () => {
 
 const age = prompt("Also, what is your age?");
@@ -104,3 +106,23 @@ const age = prompt("Also, what is your age?");
 
 
 verifyAge();
+
+//excericise #4
+
+
+
+
+
+// excercise #5
+
+const guessCorrectNumber = () => {
+    
+    const guess = prompt('Guess a number from 1 to 10');
+    const correctNumber = Math.floor(Math.random() * 10 + 1);
+    if (guess == correctNumber) {
+        alert('Awesome Possum! Thats right!');
+    } else {
+        alert('Sorry, Try again!');
+    }
+}
+

@@ -1,0 +1,20 @@
+.btn { font-family:cursive;
+    font-weight: lighter;
+
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    padding: 5%;
+    margin: 0 auto;
+    height: 0 auto;
+    width: 0 auto;
+}
+body{
+    position: relative;
+    background-color: rgb(99, 125, 125);
+    border-style: groove;
+    border: ivory;
+    border-radius: 22%;
+}
