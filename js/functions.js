@@ -100,8 +100,9 @@ const age = prompt("Also, what is your age?");
 
 
  age < 13 ?  alert('Sorry, come back when older!') :
-             alert ('Welcome, come on in');
+             alert ('Welcome, come on in buddy!');
 
+             //debugger;
 }
 
 
@@ -110,19 +111,36 @@ verifyAge();
 //excericise #4
 
 
+const convertCelsiusToFahrenheit = () => {
+    let userTemperature = prompt("Please enter a temperature in celsius");
+    let fahrenheit = userTemperature * 1.8 + 32;
+    alert("It is " + fahrenheit + " *F oustisde!");
+};
+ 
+
+
+//convertCelsiusToFahrenheit(30);
+//convertCelsiusToFahrenheit(15);
+//convertCelsiusToFahrenheit(50);
+
 
 
 
 // excercise #5
 
 const guessCorrectNumber = () => {
-    
-    const guess = prompt('Guess a number from 1 to 10');
     const correctNumber = Math.floor(Math.random() * 10 + 1);
+    for(let i = 0; i <= 2; i++) {
+    const guess = prompt('Guess a number from 1 to 10');
+    
     if (guess == correctNumber) {
         alert('Awesome Possum! Thats right!');
+        break;
     } else {
         alert('Sorry, Try again!');
+       
     }
+    if (i === 2) alert("you are all out of guesses");
 }
+};
 
