@@ -127,6 +127,7 @@ const convertCelsiusToFahrenheit = () => {
 
 
 // excercise #5
+//Guess the number challenge
 
 const guessCorrectNumber = () => {
     const correctNumber = Math.floor(Math.random() * 10 + 1);
