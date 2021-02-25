@@ -1,3 +1,10 @@
+header{
+    color: white;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
 .btn { font-family:cursive;
     font-weight: lighter;
 
