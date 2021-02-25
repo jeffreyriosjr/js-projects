@@ -1,19 +1,27 @@
-// excercise #5
-//Guess the number challenge
 
-const guessCorrectNumber = () => {
-    const correctNumber = Math.floor(Math.random() * 10 + 1);
-    for(let i = 0; i <= 2; i++) {
-    const guess = prompt('Guess a number from 1 to 10');
-    
-    if (guess == correctNumber) {
-        alert('Awesome Possum! Thats right!');
+
+const guessTheNumber = () => {
+    let correctAnswer = 7;
+    //   debugger;
+    for (let i = 0; i <= 2; i++) {
+      let userAnswer = prompt(
+        'Guess a number between 1 and 10: you get 3 guesses'
+      );
+      let verified = verifyNumber(userAnswer);
+      if (verified) {
+        alert('That is not a number, Fool!');
+      } else if (userAnswer == correctAnswer) {
+        alert('Correct! You win!');
         break;
-    } else {
-        alert('Sorry, Try again!');
-       
+      } else {
+        alert('Wrong, try again');
+      }
+  
+      if (i === 2) alert('You are out of guesses. You lose!');
     }
-    if (i === 2) alert("you are all out of guesses");
-}
-};
+  };
+  
+  const verifyNumber = userInput => {
+    return isNaN(userInput);
+  };
 
