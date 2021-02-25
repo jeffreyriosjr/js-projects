@@ -88,6 +88,19 @@ const getUserName = () => {
 
     let userName = prompt("Hey, whats your name?");
     alert("Welcome, " + userName);
-};
+}
 
 getUserName();
+
+const verifyAge = () => {
+
+const age = prompt("Also, what is your age?");
+
+
+ age < 13 ?  alert('Sorry, come back when older!') :
+             alert ('Welcome, come on in');
+
+}
+
+
+verifyAge();
