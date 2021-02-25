@@ -4,8 +4,10 @@
 }
 
 h1{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:monospace;
     font-size: large;
+    font-weight: lighter;
+    color: ivory;
     padding: 5%;
     margin: 0 auto;
     height: 0 auto;
@@ -13,8 +15,12 @@ h1{
 }
 body{
     position: relative;
-    background-color: rgb(99, 125, 125);
+    background-image: url(/js-projects/images/js-bg.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     border-style: groove;
-    border: ivory;
+    border: rgb(47, 47, 9);
     border-radius: 22%;
 }
