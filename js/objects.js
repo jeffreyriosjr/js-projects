@@ -84,7 +84,7 @@ let evilAnimals = animals.filter(animal =>{
 
 });
 
-console.log('these are my evil animals', evilAnimals);
+//console.log('these are my evil animals', evilAnimals);
 
 let evilAnimalNames = animals.filter(animal => {
     return animal.isEvil === true;
