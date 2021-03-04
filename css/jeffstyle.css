@@ -22,11 +22,13 @@ header{
     box-sizing: border-box;
 }
 body{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #bfe3fa;
 }
+
 h1{
     color: rgb(4, 3, 4);
     font-family: 'Poppins';
@@ -204,7 +206,7 @@ a{
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 480px) {
     .card-wrapper{
         flex-direction: row;
         flex-wrap: wrap;
