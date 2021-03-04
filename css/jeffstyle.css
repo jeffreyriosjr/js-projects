@@ -187,9 +187,27 @@ a{
 
 }
 
+@media (min-width: 600px) {
+    p{
+        font-size: 1.25rem;
+    }
 
+}
+@media (orientation: landscape){
+    
 
-@media screen and (min-width: 700px) {
+}
+@media (orientation: portrait){
+
+}
+@media (min-width: 850px){
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 600px) {
     .card-wrapper{
         flex-direction: row;
         flex-wrap: wrap;
