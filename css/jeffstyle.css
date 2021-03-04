@@ -193,10 +193,6 @@ a{
     }
 
 }
-@media (orientation: landscape){
-    
-
-}
 
 @media (min-width: 480px){
     .h1{
@@ -212,19 +208,32 @@ a{
         justify-content: center;
         align-items: center;
     }
-   
-
 }
 
-
-@media (min-width: 768px) {
-    .custom-element {
-      color: var(--primary);
-    }
-  }
-  @media screen 
+/* Portrait and Landscape */
+@media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
+  and (-webkit-device-pixel-ratio: 4) {
 
 }
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+
+
